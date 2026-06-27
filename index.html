@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مملكة أمل 💖</title>
+    <link rel="icon" type="image/png" href="favicon.png.jpeg">
+    <!-- ربط ملف الـ CSS اللي هيدلع الشكل -->
+    <link rel="stylesheet" href="style.css">
+    <!-- خط عربي شيك من جوجل -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 1. بوابة العبور (شاشة الباسوورد) -->
+    <div id="login-gate" class="gate-container">
+        <div class="gate-card">  
+            <div class="heart-icon">💖</div>
+            <h2>مملكة أمل ونور عيني</h2>
+            <p>هذا المكان مخصص لنور عيني فقط.. ادخلي كلمة السر لرؤية عالمنا الخاص انا والجميل✨</p>
+            
+            <div class="input-group">
+                <input type="password" id="password-input" placeholder="اكتبِ التاريخ المميز هنا..." autofocus>
+                <button id="login-btn" onclick="checkPassword()">دخول للمملكة ✨</button>
+            </div>
+            
+            <!-- رسالة الخطأ لو كتبت الباسوورد غلط -->
+            <p id="error-message" class="error-msg"></p>
+        </div>
+    </div>
+
+    <!-- 2. المحتوى الرئيسي للمملكة (مستخبي لحد ما تكتب الباسوورد صح) -->
+    <div id="main-content" class="main-content hidden">
+<header class="welcome-header">
+         <h1>نورتِ مملكتك يا نور عيني يا أمل 🌸</h1>
+         <p>كل لحظة معاكي هي عمر جديد.. ودي ذكرياتنا سوا</p>
+    
+         <!-- الجواب الرقيق -->
+         <div class="love-message">
+         <p>عايز أقولك حاجة من قلبي.. أنا بحبك بجد ومقدرش أشوف بنتي خايفة كدا وأنا جنبها.</p>
+         <p>انتي أغلى شخص عندي، وكل لحظة حلوة في حياتي ليها طعم لأنك موجودة.</p>
+         <p>انتي سبب فرحتي وضحكتي وكل لحظة سعادة بعيشها.</p>
+         <p>بحبك يا بنت عم حامد ☺️🫂</p>
+         <br>
+         <p>تعالي نشوف كام حاجة كده مع بعض هتفرحك أوي.. أنا واثق!</p>
+        
+         <!-- الزرار اللي هينقلنا لصفحة الصور -->
+         <a href="#" id="next-page-btn" class="next-btn">شوفي المفاجأة 🎁</a>
+    </div>
+</header>
+        
+       
+    </div>
+
+    <!-- ربط ملف الـ JavaScript اللي فيه السحر كله -->
+    <script src="script.js"></script>
+</body>
+</html>
